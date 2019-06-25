@@ -23,6 +23,5 @@ public class Hdfs {
             System.out.println(fileStatus.getPath().getName());
         }
 
-
     }
 }
