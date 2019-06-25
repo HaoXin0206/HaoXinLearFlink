@@ -6,7 +6,7 @@ object FlinkCoreDemo {
   def main(args: Array[String]): Unit = {
     val env=ExecutionEnvironment.getExecutionEnvironment
 
-    val tes=env.fromElements("-","?","\<","\>","\{","\}","\:","_","\.")
+    val tes=env.fromElements("-","?","\\<","\\>","\\{","\\}","\\:","_","\\.")
 
     env.readTextFile("D:\\code\\Flink\\pom.xml")
       .flatMap(a=>a.split(""))
