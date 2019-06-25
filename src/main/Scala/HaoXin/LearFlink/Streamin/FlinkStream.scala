@@ -1,5 +1,6 @@
 package HaoXin.LearFlink.Streamin
 
+import org.apache.flink.api.java.tuple.Tuple
 import org.apache.flink.streaming.api.scala._
 import org.apache.flink.streaming.api.windowing.time.Time
 
@@ -14,6 +15,9 @@ object FlinkStream {
       .timeWindow(Time.seconds(2),Time.seconds(2))
       .sum(1)
       .print()
+
+
+
 
 
     env.execute()
