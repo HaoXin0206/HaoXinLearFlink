@@ -7,9 +7,9 @@ import org.apache.flink.streaming.api.windowing.time.Time
 object ReadMySource {
   def main(args: Array[String]): Unit = {
 
-//    val env = StreamExecutionEnvironment.getExecutionEnvironment
+    val env = StreamExecutionEnvironment.getExecutionEnvironment
 
-    val env = StreamExecutionEnvironment.createLocalEnvironment(1)
+//    val env = StreamExecutionEnvironment.createLocalEnvironment(1)
 
     val data = env.addSource(new ParaSourceFunction)
         .map(a=>{
