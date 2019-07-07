@@ -11,11 +11,11 @@ import scala.util.Random
 
 class ParaSourceFunction extends RichParallelSourceFunction[String] {
   var isRunnning = true
-  var num = 100
+  var num = 10
   private val format = new DecimalFormat("00")
 
   override def run(ctx: SourceFunction.SourceContext[String]): Unit = {
-    while (isRunnning) {
+    while (num>0) {
       Thread.sleep(200)
       val time = s"${LocalDate.now()}\t${format.format(LocalTime.now().getHour)}:${format.format(LocalTime.now()
         .getMinute)}:${LocalTime.now().getSecond}"
@@ -23,11 +23,15 @@ class ParaSourceFunction extends RichParallelSourceFunction[String] {
         "qwertyuiopasdfghjklzxcvbnm")}"
       val phon = s"1${Random.nextInt(5)}${Random.nextInt(9)}${Random.nextInt(9)}${Random.nextInt(9)}${Random.nextInt(9)}${Random.nextInt(9)}${Random.nextInt(9)}${Random.nextInt(9)}${Random.nextInt(9)}${Random.nextInt(9)}${Random.nextInt(9)}${Random.nextInt(9)}"
       ctx.collect(s"${time} ${name} ${phon}")
+
+      num-=1
+
     }
+
   }
 
   override def cancel(): Unit = {
-    isRunnning = true
+    isRunnning = false
   }
 }
 

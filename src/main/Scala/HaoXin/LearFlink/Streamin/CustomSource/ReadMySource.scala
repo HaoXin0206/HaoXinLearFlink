@@ -17,7 +17,7 @@ object ReadMySource {
           Info(data(0),data(1),data(2).toLong)
         })
 
-//    data.addSink(new JdbcWrite)
+    data.addSink(new JdbcWrite)
 //    data.addSink(new WriteDataToHdfs)
     data.print()
 
