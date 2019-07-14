@@ -14,6 +14,7 @@ import java.sql.PreparedStatement;
  * @Descripition:
  */
 public class JdbcWrite extends RichSinkFunction<ReadMySource.Info> {
+
     Connection connection;
     PreparedStatement preparedStatement;
     Option option=new Option();

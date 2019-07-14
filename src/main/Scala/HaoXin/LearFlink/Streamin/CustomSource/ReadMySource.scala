@@ -11,6 +11,8 @@ object ReadMySource {
 
 //    val env = StreamExecutionEnvironment.createLocalEnvironment(1)
 
+    val datas: DataStream[String] = env.addSource(new ParaSourceFunction)
+
     val data = env.addSource(new ParaSourceFunction)
         .map(a=>{
           val data=a.split(" ")
