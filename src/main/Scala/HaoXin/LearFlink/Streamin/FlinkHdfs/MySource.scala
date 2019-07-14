@@ -26,6 +26,7 @@ class MySource extends RichParallelSourceFunction[userinfo] {
 
       println(num +s"\t${userinfoA}")
       if (num == 999999) isRuner = false else isRuner
+
     }
   }
 
