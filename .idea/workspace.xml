@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3638eb6-5f2e-4ed3-be16-128fcf590aa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkHdfs/MySource.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkHdfs/WriteDataToHDFS.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/tt.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Time/DataSource.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Time/TimeWater.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/JdbcWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/JdbcWrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/ReadMySource.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/ReadMySource.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkStream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkStream.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,24 +23,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkHdfs/MySource.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Time/TimeWater.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="249">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding>
-                <element signature="e#45#112#0" expanded="true" />
+                <element signature="e#40#120#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkHdfs/WriteDataToHDFS.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Time/DataSource.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="351">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
-                <element signature="e#45#71#0" expanded="true" />
+                <element signature="e#40#88#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +61,7 @@
       <find>KeyedStream</find>
       <find>: KeyedStream</find>
       <find>sum</find>
+      <find>(e,6)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,6 +92,9 @@
         <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/JdbcWrite.java" />
         <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkHdfs/WriteDataToHDFS.scala" />
         <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkHdfs/MySource.scala" />
+        <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/TimeWater.scala" />
+        <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Time/DataSource.scala" />
+        <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Time/TimeWater.scala" />
       </list>
     </option>
   </component>
@@ -138,6 +138,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,7 +199,7 @@
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
               <item name="LearFlink" type="462c0819:PsiDirectoryNode" />
               <item name="Streamin" type="462c0819:PsiDirectoryNode" />
-              <item name="FlinkHdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="Time" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HaoXinLearFlink" type="b2602c69:ProjectViewProjectNode" />
@@ -212,26 +213,32 @@
               <item name="HaoXinLearFlink" type="b2602c69:ProjectViewProjectNode" />
               <item name="HaoXinLearFlink" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="Kafka" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Flink" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="HaoXin.LearFlink.Streamin.Time" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WriteDataToHDFS">
+  <component name="RunManager" selected="Application.TimeWater">
     <configuration name="AppendHDFSFile" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="HDFS.AppendHDFSFile" />
       <module name="HaoXinLearFlink" />
@@ -272,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadMySource" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="HaoXin.LearFlink.Streamin.CustomSource.ReadMySource" />
+    <configuration name="TimeWater" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="HaoXin.LearFlink.Streamin.Time.TimeWater" />
       <module name="HaoXinLearFlink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HaoXin.LearFlink.Streamin.CustomSource.*" />
+          <option name="PATTERN" value="HaoXin.LearFlink.Streamin.Time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeWater" />
         <item itemvalue="Application.WriteDataToHDFS" />
         <item itemvalue="Application.tt" />
         <item itemvalue="Application.FlinkStream" />
         <item itemvalue="Application.AppendHDFSFile" />
-        <item itemvalue="Application.ReadMySource" />
       </list>
     </recent_temporary>
   </component>
@@ -345,6 +352,17 @@
       <workItem from="1562764843794" duration="21000" />
       <workItem from="1563021540928" duration="3338000" />
       <workItem from="1563072041906" duration="5944000" />
+      <workItem from="1563107229547" duration="78000" />
+      <workItem from="1563575327237" duration="10000" />
+      <workItem from="1563575366079" duration="5000" />
+      <workItem from="1563575441360" duration="93000" />
+      <workItem from="1564299427008" duration="156000" />
+      <workItem from="1564305643617" duration="1000" />
+      <workItem from="1564305803487" duration="11000" />
+      <workItem from="1564305836528" duration="1780000" />
+      <workItem from="1564307646812" duration="1800000" />
+      <workItem from="1564309480419" duration="319000" />
+      <workItem from="1564396356204" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="WordCount">
       <created>1561384786757</created>
@@ -402,16 +420,31 @@
       <option name="project" value="LOCAL" />
       <updated>1562486165188</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="实时代码">
+      <created>1563107243725</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563107243725</updated>
+    </task>
+    <task id="LOCAL-00010" summary="实时代码">
+      <created>1563107272728</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563107272728</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45135000" />
+    <option name="totallyTimeSpent" value="49450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.39696312" visible="true" weight="0.16950959" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.39696312" visible="true" weight="0.18869936" />
       <window_info id="Structure" order="1" sideWeight="0.6030369" side_tool="true" weight="0.2260128" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,8 +453,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.16311301" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37310195" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5097614" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5845987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -591,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.8.0/flink-streaming-scala_2.11-1.8.0-sources.jar!/org/apache/flink/streaming/api/scala/DataStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27162">
-          <caret line="1046" column="51" selection-start-line="1046" selection-start-column="51" selection-end-line="1046" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -639,16 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/Option.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Scala/HDFS/AppendHDFSFile.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -659,49 +675,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/WriteDataToHdfs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="e#35#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/ParaSourceFunction.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#48#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/WriteDataToHdfs.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/ReadMySource.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="e#48#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/JdbcWrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -718,20 +698,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkHdfs/WriteDataToHDFS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="513">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="e#45#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="e#35#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkHdfs/MySource.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="-373">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
             <element signature="e#45#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/JdbcWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/TimeWater.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/Option.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/CustomSource/ParaSourceFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#48#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.8.0/flink-streaming-scala_2.11-1.8.0-sources.jar!/org/apache/flink/streaming/api/scala/DataStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22734">
+          <caret line="882" column="78" selection-start-line="882" selection-start-column="46" selection-end-line="882" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Time/TimeWater.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="e#40#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Time/DataSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#40#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
