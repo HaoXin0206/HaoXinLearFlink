@@ -1,4 +1,4 @@
-package HaoXin.LearFlink.Streamin.Time
+package HaoXin.LearFlink.Streamin.Times
 
 import org.apache.flink.streaming.api.functions.AssignerWithPunctuatedWatermarks
 import org.apache.flink.streaming.api.scala._

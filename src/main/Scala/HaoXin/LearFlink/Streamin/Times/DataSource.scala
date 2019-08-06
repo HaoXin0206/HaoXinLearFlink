@@ -1,4 +1,4 @@
-package HaoXin.LearFlink.Streamin.Time
+package HaoXin.LearFlink.Streamin.Times
 
 import org.apache.commons.lang.RandomStringUtils
 import org.apache.flink.streaming.api.functions.source.{RichParallelSourceFunction, SourceFunction}
