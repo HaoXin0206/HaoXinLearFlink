@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3638eb6-5f2e-4ed3-be16-128fcf590aa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Kafka/ProducerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/WriteDataToLocalFIle/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/WriteDataToLocalFIle/mySink.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/WriteDataToLocalFIle/mySource.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/waterMarkDemo.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Time/DataSource.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Times/DataSource.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Time/TimeWater.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Times/TimeWater.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/waterMarkDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="-729">
+              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
                 <element signature="e#36#84#0" expanded="true" />
               </folding>
@@ -75,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="104" column="40" lean-forward="true" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+            <state relative-caret-position="170">
+              <caret line="100" column="86" selection-start-line="100" selection-start-column="86" selection-end-line="100" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -134,9 +127,9 @@
         <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/Time/TimeWater.scala" />
         <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/WriteDataToLocalFIle/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/WriteDataToLocalFIle/mySource.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Kafka/ProducerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/waterMarkDemo.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -393,7 +386,8 @@
       <workItem from="1564881872094" duration="3121000" />
       <workItem from="1564903116609" duration="59000" />
       <workItem from="1565007296337" duration="11000" />
-      <workItem from="1565091039662" duration="1572000" />
+      <workItem from="1565091039662" duration="1945000" />
+      <workItem from="1565097038365" duration="510000" />
     </task>
     <task id="LOCAL-00001" summary="WordCount">
       <created>1561384786757</created>
@@ -472,17 +466,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564396543992</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="WaterMark">
+      <created>1565092963308</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1565092963308</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57441000" />
+    <option name="totallyTimeSpent" value="58324000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39696312" visible="true" weight="0.16364606" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.39696312" visible="true" weight="0.1652452" />
       <window_info id="Structure" order="1" sideWeight="0.6030369" side_tool="true" weight="0.2260128" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -508,7 +509,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
@@ -520,7 +521,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="WordCount" />
     <MESSAGE value="实时代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="实时代码" />
+    <MESSAGE value="WaterMark" />
+    <option name="LAST_COMMIT_MESSAGE" value="WaterMark" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/FlinkCoreDemo.scala" />
@@ -849,20 +851,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/waterMarkDemo.scala">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#36#84#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="100" column="86" selection-start-line="100" selection-start-column="86" selection-end-line="100" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/waterMarkDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="104" column="40" lean-forward="true" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+        <state relative-caret-position="-729">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#36#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
