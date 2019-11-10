@@ -15,7 +15,7 @@ import java.util.Properties;
 public class ProducerDemo {
     public static void main(String[] args) {
         Properties properties = new Properties();
-        properties.put("bootstrap.servers","haoxin01:9092,haoxin01:9093,haoxin01:9094,haoxin01:9095");
+        properties.put("bootstrap.servers","192.168.65.130:9092,192.168.65.130:9093,192.168.65.130:9094");
         properties.put("request.required.acks","2");
         properties.put("key.serializer","org.apache.kafka.common.serialization.StringSerializer");
         properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");

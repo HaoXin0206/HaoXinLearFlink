@@ -25,7 +25,7 @@ class MySource extends RichParallelSourceFunction[userinfo] {
       sct.collect(userinfoA)
 
       println(num +s"\t${userinfoA}")
-      if (num == 999999) isRuner = false else isRuner
+      if (num == 999999999) isRuner = false else isRuner
 
     }
   }
@@ -47,7 +47,7 @@ class MySource extends RichParallelSourceFunction[userinfo] {
       "太叔申屠公孙仲孙轩辕令狐钟离宇文长孙慕容鲜于闾丘司徒司空丌官司寇仉督子车颛孙端木巫马公西漆雕乐正壤驷公良拓跋夹谷宰父谷梁晋楚闫法" +
       "汝鄢涂钦段干百里东郭南门呼延归海羊舌微生岳帅缑亢况郈有琴梁丘左丘东门西门商牟佘佴伯赏南宫墨哈谯笪年爱阳佟第五言福百家姓终"
 
-    val tName = "风花雪月山树楼台一奕如娜大小淑书静香陌莫沫眸忆安简素未离央墨凉荼曦兮顾初旧落逆倾颜微锦诺"
+    val tName = "风花雪月山树楼台一奕如娜大小淑书静香陌莫沫眸忆安简素未离央墨凉荼曦兮顾初旧落逆倾颜微锦诺鑫龙佳伟秀周迪峰"
     all
 
     val oneName = s"${RandomStringUtils.random(1,all)}${RandomStringUtils.random(1,tName)}${if (Random.nextInt(12)
