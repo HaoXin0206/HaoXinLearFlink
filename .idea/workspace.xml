@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3638eb6-5f2e-4ed3-be16-128fcf590aa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/Streamin/FlinkHdfs/MySink.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/WriteData/MyDataSource.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/HaoXin/LearFlink/WriteData/StreamData2MySql.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/LocalFile/ReadFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/LocalFile/ReadFile.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -252,6 +251,7 @@
       <workItem from="1575068253173" duration="14000" />
       <workItem from="1575068370833" duration="83000" />
       <workItem from="1575068472796" duration="29000" />
+      <workItem from="1575093219172" duration="1872000" />
     </task>
     <task id="LOCAL-00001" summary="WordCount">
       <created>1561384786757</created>
@@ -351,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573378905622</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="测试">
+      <created>1575093286330</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575093286330</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,6 +395,7 @@
     <MESSAGE value="WordCount" />
     <MESSAGE value="实时代码" />
     <MESSAGE value="WaterMark" />
-    <option name="LAST_COMMIT_MESSAGE" value="WaterMark" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
 </project>
